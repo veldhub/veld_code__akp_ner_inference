@@ -12,7 +12,11 @@ services:
     ports:
       - 8888:8888
     # TODO: check if this work dir is necessary
-    working_dir: /home/docker_user/
+    working_dir: /veld/code/
     volumes:
-      - ./src:/home/docker_user/
+      - ./src:/veld/code/
+    environment:
+      input_model: null
+      input_solr_core_url: null
+      output_csv_file: null
 
