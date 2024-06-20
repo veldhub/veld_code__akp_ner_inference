@@ -8,6 +8,30 @@ x-veld:
         - "Machine learning"
         - "Named entity recognition"
 
+    inputs:
+      volume: /veld/input/
+      file_formats: "spacy model"
+      contents:
+        - "NLP model"
+        - "NER model"
+
+    outputs:
+      volume: /veld/output/
+      file_formats: "csv"
+      contents:
+        - "inferenced NLP data"
+        - "NLP data"
+        - "NER data"
+
+    environment:
+      solr_core_url:
+        description: "url pointing to a solr core from where text data should be loaded"
+        type: url
+      out_csv_file: 
+        description: "inferenced NLP / NER data."
+        type: file
+        volume: /veld/output/
+
 services:
   veld:
     build: .
@@ -18,7 +42,6 @@ services:
     volumes:
       - ./src:/veld/code/
     environment:
-      input_model: null
-      input_solr_core_url: null
-      output_csv_file: null
+      solr_core_url: null
+      out_csv_file: null
 
