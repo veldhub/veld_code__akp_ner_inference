@@ -19,7 +19,7 @@ x-veld:
         file_type: "csv"
         environment: out_csv_file
         description: "inferenced NLP / NER data."
-        contents: ""
+        contents:
           - "inferenced NLP data"
           - "NLP data"
           - "NER data"
