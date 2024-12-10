@@ -30,7 +30,7 @@ x-veld:
         env_type: "url"
 
 services:
-  veld:
+  veld_infer:
     build: .
     command: jupyter notebook --ip='*' --allow-root --NotebookApp.token='' --NotebookApp.password=''
     ports:
