@@ -4,8 +4,8 @@ x-veld:
       AKP project"
     topic:
       - "NLP"
-      - "Machine learning"
-      - "Named entity recognition"
+      - "Machine Learning"
+      - "Named Entity Recognition"
 
     input:
       - volume: /veld/input/
