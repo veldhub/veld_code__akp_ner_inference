@@ -20,13 +20,10 @@ Run a veld with:
 docker compose -f <VELD_NAME>.yaml up
 ```
 
-Example: 
+## contained code velds
+
+**[./veld_infer.yaml](./veld_infer.yaml)** : apply NER models on linkedcat data for usage of the inferenced entites in the AKP project
 ```
 docker compose -f veld_infer.yaml up
 ```
-
-## contained code velds
-
-- [./veld_infer.yaml](./veld_infer.yaml) : apply NER models on linkedcat data for usage of the 
-  inferenced entites in the AKP project
 
