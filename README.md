@@ -1,4 +1,4 @@
-# veld_code__akp_ner_inference
+# ![veld chain](https://raw.githubusercontent.com/veldhub/.github/refs/heads/main/images/symbol_V_letter.png) veld_code__akp_ner_inference
 
 This repo contains [code velds](https://zenodo.org/records/13322913) which apply NER models on
 linkedcat data for usage of the inferenced entites in the AKP project.
