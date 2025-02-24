@@ -27,7 +27,7 @@ x-veld:
     config:
       - environment_var: solr_core_url
         description: "url pointing to a solr core from where text data should be loaded"
-        var_type: "url"
+        var_type: "str"
 
 services:
   veld_infer:
